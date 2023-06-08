@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Email Template</title>
+</head>
+
+<body style="font-family: roboto, sans-serif; color: #1A1A1A; font-size: 16px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td width="100%">
+                    <div style="max-width:900px;Margin:0 auto">
+                        <table align="center" cellpadding="0" cellspacing="0"
+                            style="border-spacing:0;font-family:gt-eesti,ArialMT,Helvetica,Arial,sans-serif;Margin:0 auto;padding:24px;width:100%;max-width:700px">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table style="margin-bottom:40px;width:100%" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                                                            <img src="https://i.ibb.co/P59x8r3/Logo.png"
+                                                                alt="payme logo" border="0" width="50px">
+                                                            <p
+                                                                style="font-size: 17px; line-height: 0.75rem; font-weight: 600;">
+                                                                Payslip
+                                                            </p>
+                                                            <small style="display: block; line-height: 1.3rem;">Payme
+                                                                LLC</small>
+                                                            <small>KM 7, Enugu - Portharcourt Expressway, <br />
+                                                                Centenary
+                                                                city, Enugu</small>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align:justify;word-break:break-word">
+                                        <table style="margin-bottom:20px;width:100%" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table style="width:100%;margin-bottom:20px" width="100%"
+                                                            cellpadding="0" cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style>
+                                                                        <div>
+                                                                            <strong
+                                                                                style="font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Date of Joining : </span>
+                                                                            </strong>
+                                                                            <span>02-06-2023</span>
+                                                                        </div>
+
+
+                                                                    </td>
+                                                                    <td>
+                                                                        <div style="padding-left: 20px;">
+                                                                            <strong
+                                                                                style="font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Employee Name :</span>
+                                                                            </strong>
+                                                                            <span>
+                                                                                <%= name %>
+                                                                            </span>
+                                                                        </div>
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding-top: 10px;">
+                                                                        <div>
+                                                                            <strong
+                                                                                style="font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Pay period : </span>
+                                                                            </strong>
+                                                                            <span>
+                                                                                <%= month %>, <%= year %>
+                                                                            </span>
+                                                                        </div>
+
+
+                                                                    </td>
+                                                                    <td>
+                                                                        <div style="padding-left: 20px;">
+                                                                            <strong
+                                                                                style="
+                                                                                                                                                font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Employee ID : </span>
+                                                                            </strong>
+                                                                            <span>
+                                                                                <%= employeeId %>
+                                                                            </span>
+                                                                        </div>
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding-top: 10px;">
+                                                                        <div>
+                                                                            <strong
+                                                                                style="font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Worked hrs : </span>
+                                                                            </strong>
+                                                                            <span>
+                                                                                <%= totalWorkingHours %>
+                                                                            </span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div style="padding-left: 20px;">
+                                                                            <strong
+                                                                                style="font-family:Helvetica,Arial,sans-serif;">
+                                                                                <span>Role: </span>
+                                                                            </strong>
+                                                                            <span>
+                                                                                <%= jobRole %>
+                                                                            </span>
+                                                                        </div>
+                                                                    </td>
+
+                                                                </tr>
+                                                            </tbody>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size: 14px;">
+                                        <table style="margin-bottom:20px;width:100%;border-collapse: collapse;"
+                                            width="100%">
+                                            <thead style="background-color: #e9acff;">
+                                                <tr style="border-bottom: 1px solid #c2c2c2;">
+                                                    <th scope="col"
+                                                        style="text-align:left;padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem">
+                                                        Earnings
+                                                    </th>
+                                                    <th scope="col"
+                                                        style="text-align:left;padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem">
+                                                        Amount (&#8358;)
+                                                    </th>
+                                                    <th scope="col"
+                                                        style="text-align:left;padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem">
+                                                        Deductions (&#8358;) </th>
+                                                    <th scope="col"
+                                                        style="text-align:left;padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem">
+                                                        Amount
+                                                    </th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody style="background-color: #f5e4fb;">
+                                                <tr style="border-bottom: 1px solid #c2c2c2">
+                                                    <th scope="row"
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem; font-weight: 600; white-space: nowrap">
+                                                        Base Salary
+                                                    </th>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        <%= monthlyBasePay %>.00
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        Tax
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        <%= tax %>.00
+                                                    </td>
+
+                                                </tr>
+                                                <tr style="border-bottom: 1px solid #c2c2c2;">
+                                                    <th scope="row"
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem; font-weight: 600; white-space: nowrap">
+                                                        Bonus
+                                                    </th>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        <%= bonus %>.00
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        Loan
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        <%= loan %>.00
+                                                    </td>
+
+                                                </tr>
+                                                <tr style="border-bottom: 1px solid #c2c2c2;">
+                                                    <th scope="row"
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem; font-weight: 600; white-space: nowrap">
+                                                        Allowance
+                                                    </th>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        <%= allowance %>
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                    </td>
+
+                                                </tr>
+                                                <tr style="border-bottom: 1px solid #c2c2c2;">
+                                                    <th scope="row"
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.75rem; padding-bottom: 0.75rem; font-weight: 600; white-space: nowrap"
+                                                        colspan="4">
+
+                                                    </th>
+
+
+                                                </tr>
+                                                <tr style="border-bottom: 1px solid #c2c2c2;">
+                                                    <th scope="row"
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem; font-weight: 600; white-space: nowrap">
+                                                        Total Earnings
+                                                    </th>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        &#8358; <%= totalSalary %>.00
+                                                    </td>
+                                                    <td
+                                                        style="font-weight: 600;text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        Total Deductions
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        &#8358; <%= totalDeduction %>.00
+                                                    </td>
+
+                                                </tr>
+                                                <tr style="">
+                                                    <th scope="row"
+                                                        style="background-color: #fff; text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem; font-weight: 600; white-space: nowrap"
+                                                        colspan="2">
+
+                                                    </th>
+
+                                                    <td
+                                                        style="font-weight: 600;text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        Net Pay
+                                                    </td>
+                                                    <td
+                                                        style="text-align: left; padding-left: 0.5rem; padding-right: 0.5rem;padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                                                        &#8358; <%= netSalary %>.00
+                                                    </td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <center>
+                                            <table
+                                                style="background-color:#fff;margin-bottom:20px;table-layout:fixed ; margin-top: 20px;"
+                                                align="center" width="" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div style="text-align: center;">
+                                                                <small style="font-weight: 600;">Total Net Pay</small>
+                                                                <p style="font-weight: 600;">&#8358; <%= netSalary%>.00
+                                                                </p>
+                                                                <small style="font-weight: 600;">
+                                                                    <%= netSalaryInWords %> naira only
+                                                                </small>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </center>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" style="margin-bottom:20px;width:100%">
+                        <tbody>
+                            <tr>
+                                <td width="100%">
+                                    <div style="width:100%;height:1px;background-color:#ddd" color="#DDD" width="100%">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:center">
+                    <img src="https://i.ibb.co/P59x8r3/Logo.png" alt="payme logo"
+                        style="display:block;width:29px;height:auto;margin-left:auto;margin-right:auto;margin-bottom:10px"
+                        height="auto" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;font-size:13px">
+                    <a href="https://payme.com?ref=mail" style="color:#00aff5" target="_blank">
+                        Goto payme.com
+                    </a>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    <table style="max-width:100%;width:100%;text-align:center;font-family:ArialMT,Arial,sans-serif"
+                        cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td style="text-align:center">
+                                    <p
+                                        style="font-size:10px;color:#708c91;text-align:center;padding:0;margin-top:10px;margin-bottom:2px">
+                                        This email was sent to you by
+                                        info@payme.com (Do not reply)
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
