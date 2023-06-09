@@ -1,4 +1,4 @@
-# PS-8-BE
+# Payroll Backend API
 
 - ## Instructions:
 
@@ -25,8 +25,3 @@ Clone repo
 npm install
 npm run dev // To start developement mode
 ```
-
-**Reach out to me incase any issue arises while running the project locally 👋👋**
-
-- Email - kingsleyaham6@gmail.com
-- whatsapp - +2347054280223
